@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mozdevice
+Version: 0.45
+Summary: Mozilla-authored device management
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Testing Team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Description: see http://mozbase.readthedocs.org/
+Platform: UNKNOWN

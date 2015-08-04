@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozrunner==6.7','console_scripts','mozrunner'
+__requires__ = 'mozrunner==6.7'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozrunner==6.7', 'console_scripts', 'mozrunner')()
+    )

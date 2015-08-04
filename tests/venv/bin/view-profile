@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozprofile==0.24','console_scripts','view-profile'
+__requires__ = 'mozprofile==0.24'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozprofile==0.24', 'console_scripts', 'view-profile')()
+    )

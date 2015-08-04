@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: manifestparser
+Version: 1.1
+Summary: Library to create and manage test manifests
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Testing Team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Description: see http://mozbase.readthedocs.org/
+Keywords: mozilla manifests
+Platform: UNKNOWN

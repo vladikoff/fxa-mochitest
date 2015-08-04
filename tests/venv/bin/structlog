@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozlog==2.11','console_scripts','structlog'
+__requires__ = 'mozlog==2.11'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozlog==2.11', 'console_scripts', 'structlog')()
+    )

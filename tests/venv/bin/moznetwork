@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'moznetwork==0.26','console_scripts','moznetwork'
+__requires__ = 'moznetwork==0.26'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('moznetwork==0.26', 'console_scripts', 'moznetwork')()
+    )

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mozprofile
+Version: 0.24
+Summary: Library to create and modify Mozilla application profiles
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Tools team
+Author-email: tools@lists.mozilla.org
+License: MPL 2.0
+Description: see http://mozbase.readthedocs.org/
+Keywords: mozilla
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

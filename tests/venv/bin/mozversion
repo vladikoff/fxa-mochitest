@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozversion==1.2','console_scripts','mozversion'
+__requires__ = 'mozversion==1.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozversion==1.2', 'console_scripts', 'mozversion')()
+    )

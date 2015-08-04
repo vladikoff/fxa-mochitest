@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozdevice==0.45','console_scripts','sutini'
+__requires__ = 'mozdevice==0.45'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozdevice==0.45', 'console_scripts', 'sutini')()
+    )

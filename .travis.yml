@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+addons:
+  firefox: "38.0"
+
+env:
+  global:
+    - MOZ_DISABLE_NONLOCAL_CONNECTIONS=0
+
+
+install:
+  - npm install
+
+script:
+  - cd tests && ./run.sh /usr/bin/firefox

@@ -1,0 +1,10 @@
+#!/Users/vladikoff/mozilla/fxa-mochitest/tests/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozinfo==0.8','console_scripts','mozinfo'
+__requires__ = 'mozinfo==0.8'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mozinfo==0.8', 'console_scripts', 'mozinfo')()
+    )

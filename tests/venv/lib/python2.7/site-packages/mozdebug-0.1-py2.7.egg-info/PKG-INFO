@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mozdebug
+Version: 0.1
+Summary: Utilities for running applications under native code debuggers intended for use in Mozilla testing
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Testing Team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Description: see http://mozbase.readthedocs.org/
+Keywords: mozilla
+Platform: UNKNOWN

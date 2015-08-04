@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mozcrash
+Version: 0.14
+Summary: Library for printing stack traces from minidumps left behind by crashed processes
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Tools team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Description: see http://mozbase.readthedocs.org/
+Keywords: mozilla
+Platform: UNKNOWN

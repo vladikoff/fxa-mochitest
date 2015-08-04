@@ -1,0 +1,20 @@
+{
+  "name": "fxa-mochitest",
+  "version": "1.0.0",
+  "description": "fxa-mochitest",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "scripts/postinstall.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladikoff/fxa-mochitest.git"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/vladikoff/fxa-mochitest/issues"
+  },
+  "homepage": "https://github.com/vladikoff/fxa-mochitest"
+}

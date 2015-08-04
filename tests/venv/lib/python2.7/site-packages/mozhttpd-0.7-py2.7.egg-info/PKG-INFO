@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mozhttpd
+Version: 0.7
+Summary: Python webserver intended for use with Mozilla testing
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Automation and Testing Team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Description: see http://mozbase.readthedocs.org/
+Keywords: mozilla
+Platform: UNKNOWN
