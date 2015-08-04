@@ -32,4 +32,5 @@ install:
   - cd ..
 
 script:
-  - ./run.sh /usr/bin/firefox
+  - which firefox
+  - ./run.sh /usr/local/bin/firefox
