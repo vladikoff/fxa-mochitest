@@ -14,21 +14,21 @@ env:
 
 install:
   - cd tests
-  - sudo pip install  ./mozbase/manifestparser
-  - sudo pip install  ./mozbase/mozcrash
-  - sudo pip install  ./mozbase/mozdebug
-  - sudo pip install  ./mozbase/mozdevice
-  - sudo pip install  ./mozbase/mozfile
-  - sudo pip install  ./mozbase/mozhttpd
-  - sudo pip install  ./mozbase/mozinfo
-  - sudo pip install  ./mozbase/mozinstall
-  - sudo pip install  ./mozbase/mozlog
-  - sudo pip install  ./mozbase/moznetwork
-  - sudo pip install  ./mozbase/mozprocess
-  - sudo pip install  ./mozbase/mozprofile
-  - sudo pip install  ./mozbase/mozrunner
-  - sudo pip install  ./mozbase/moztest
-  - sudo pip install  ./mozbase/mozversion
+  - sudo -H pip install  ./mozbase/manifestparser
+  - sudo -H pip install  ./mozbase/mozcrash
+  - sudo -H pip install  ./mozbase/mozdebug
+  - sudo -H pip install  ./mozbase/mozdevice
+  - sudo -H pip install  ./mozbase/mozfile
+  - sudo -H pip install  ./mozbase/mozhttpd
+  - sudo -H pip install  ./mozbase/mozinfo
+  - sudo -H pip install  ./mozbase/mozinstall
+  - sudo -H pip install  ./mozbase/mozlog
+  - sudo -H pip install  ./mozbase/moznetwork
+  - sudo -H pip install  ./mozbase/mozprocess
+  - sudo -H pip install  ./mozbase/mozprofile
+  - sudo -H pip install  ./mozbase/mozrunner
+  - sudo -H pip install  ./mozbase/moztest
+  - sudo -H pip install  ./mozbase/mozversion
 
 script:
-  - cd tests && ./run.sh /usr/bin/firefox
+  - ./run.sh /usr/bin/firefox
