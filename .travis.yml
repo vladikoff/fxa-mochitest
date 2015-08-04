@@ -29,6 +29,7 @@ install:
   - sudo -H pip install  ./mozbase/mozrunner
   - sudo -H pip install  ./mozbase/moztest
   - sudo -H pip install  ./mozbase/mozversion
+  - cd ..
 
 script:
   - ./run.sh /usr/bin/firefox
