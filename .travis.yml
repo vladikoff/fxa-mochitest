@@ -12,9 +12,6 @@ env:
   global:
     - MOZ_DISABLE_NONLOCAL_CONNECTIONS=0
 
-before_install:
-  - sudo apt-get install python-virtualenv
-
 install:
   - cd tests
   - pip install  ./mozbase/manifestparser
